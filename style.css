@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.overall{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("https://img.freepik.com/premium-photo/food-background-set-dishes-fish-meat-vegetables-black-stone-background-top-view-free-copy-space_187166-16567.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form_register input{
+    margin: 10px 0;
+    height: 30px;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+}
+.form_register1 input{
+    height: 20px;
+    padding:0 5px;
+    margin: 0 0 10px;
+}
+.welcome{
+    background-color: aquamarine;
+    padding: 20px;
+}
+.welcome h2{
+    margin: 10px 0;
+}
+.form{
+    padding: 20px;
+    background-color: cadetblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: white;
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/020/525/157/small/abstract-background-design-background-texture-design-with-abstract-style-creative-illustration-for-advertising-posters-business-cards-flyers-websites-banners-covers-landings-pages-etc-vector.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+nav{
+    height: 90px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    width: 100%;
+    background-color: #758694;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.logo{
+    background-image: url(./img/logo.svg);
+    height: 70px;
+    width: 70px;
+    background-repeat: no-repeat;
+    filter: drop-shadow(2px 2px 2px #e75b1e);
+}
+.field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* color: white; */
+
+}
+.field button{
+    padding: 5px;
+    border: none;
+    font-size: 1.1rem;
+
+}
+.bar>select>option{
+    color: black;
+}
+.search{
+    min-height: 80vh;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form1{
+    height: 250px;
+    padding: 20px;
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/020/525/157/small/abstract-background-design-background-texture-design-with-abstract-style-creative-illustration-for-advertising-posters-business-cards-flyers-websites-banners-covers-landings-pages-etc-vector.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.form1 button{
+    height: 30px;
+    padding: 0 5px;
+    background-color: #e75b1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#type{
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    outline: none;
+    margin: 30px 0;
+}
+.logo1{
+    height: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.logo1 h1{
+    color: white;
+}
+.logo1>img{
+    height: 70px;
+    height: 70px;
+}
+.card_design{
+    padding: 10px;
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+.card_design1{
+    padding: 10px;
+    /* border: 1px solid black; */
+    margin: 30px 0 0;
+    width: 300px;
+    border-radius: 15px;
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/020/525/157/small/abstract-background-design-background-texture-design-with-abstract-style-creative-illustration-for-advertising-posters-business-cards-flyers-websites-banners-covers-landings-pages-etc-vector.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.card_design1 input{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    outline: none;
+    margin: 10px 0;
+
+}
+.img_carier{
+    height: 250px;
+    width: 280px;
+}
+.img_carier img{
+    /* background: url("https://t3.ftcdn.net/jpg/03/20/50/28/360_F_320502828_Z6gjUxZpvbBZ3CWGOVJWFLg9A0FlvheL.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    position: relative;
+}
+.img_up{
+    position: relative;
+    top: -40px;
+    left: 20px;
+    color: white;
+}
+.card_content h1{
+    margin: 5px 0;
+}
+.rating i{ 
+    color: red;
+    font-size: 1.3rem;
+}
+.rating span{
+    font-size: 1.3rem;
+}
+.card_content button{
+    padding: 10px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    
+}
+.card_content button>i{
+    font-size: 1.2rem;
+    margin: 0 5px 0;
+}
+.card{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    min-height: 100vh;
+}
+.card_content>h3{
+    margin: 5px 0;
+}
+.card1{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    /* min-height: 100vh; */
+}
+.inc{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px;
+    margin: 0 0 10px;
+}
+.inc>input{
+    height: 30px;
+    padding: 10px;
+    width: 50%;
+}
+.inc>button{
+    height: 30px;
+    padding: 0;
+    width: 25px;
+    background-color: #758694;
+}
+.butt1{
+    display: flex;
+    
+}
+.butt1 button{
+    height: 30px;
+    padding: 2px;
+    margin:10px  0 10px 10px;
+    background-color: #e75b1e;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: white;
+}
+.add a{
+    text-decoration: none;
+    color: black;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    /* background-color: white; */
+}
+.butt{
+    height: 30px;
+    padding: 2px;
+    margin:10px  0 10px 10px;
+    background-color: #e75b1e;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: white;
+}
+nav h1{
+    text-align: center;
+}
+.overall1{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.summary h3{
+    margin: 10px 0;
+}
+.butt1>button a{
+    text-decoration: none;
+}
+#fr{
+    display: none;
+}
+.show{
+    display: none;
+}
+#fr:checked~form{
+    display: block;
+}
+#address{
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    outline: none;
+    margin: 10px 0;
+}
+.container{
+    min-height: 20vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/book-table-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+}
+.click i{
+    background-color: #e75b1e;
+    padding: 5px;
+    border-radius: 5px;
+    letter-spacing: 5px;
+}
+.alert{
+    color: white;
+}
+#submit{
+    display: inline;
+    padding: 5px;
+    background-color: #e75b1e;
+    border: none;
+    outline: unset;
+}
+.card_content h2{
+    margin: 0 0 10px;
+}
+.card_content a{
+    margin: 10px 0;
+    text-decoration: none;
+    display: inline;
+    padding: 5px;
+    background-color: #e75b1e;
+    border: none;
+    outline: unset;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.change{
+    color: white;
+}
